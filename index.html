@@ -1,49 +1,226 @@
 <!doctype html>
-<html lang="vi">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#0b1026">
-  <meta name="description" content="LearnWard giúp gia đình ghi nhận nỗ lực học tập, theo dõi sự tiến bộ và tạo động lực cho trẻ bằng những phần thưởng ý nghĩa.">
-  <meta property="og:title" content="LearnWard — Mỗi bước tiến đều đáng ghi nhận">
-  <meta property="og:description" content="Biến sự tiến bộ trong học tập thành động lực tích cực cho cả gia đình.">
+  <meta name="theme-color" content="#f8f7ff">
+  <meta name="description" content="LearnWard turns the learning kids already do into quests, visible growth, XP, levels, and family-agreed rewards. Built to make progress feel meaningful.">
   <meta property="og:type" content="website">
+  <meta property="og:title" content="LearnWard — Turn learning into an adventure">
+  <meta property="og:description" content="Real learning. Visible progress. Rewards that mean something to your family. Discover LearnWard, an educational motivation app in development.">
   <meta property="og:url" content="https://learnward.online/">
-  <link rel="icon" type="image/svg+xml" href="favicon.svg">
-  <title>LearnWard — Mỗi bước tiến đều đáng ghi nhận</title>
-  <style>
-    :root{color-scheme:dark;--bg:#0b1026;--card:#151c3a;--text:#f3f6ff;--muted:#a9b4d3;--line:rgba(255,255,255,.13);--primary:#9e8bff;--teal:#6de3d2}
-    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(900px 460px at 78% 14%,#28205c 0%,transparent 72%),radial-gradient(700px 500px at 8% 66%,#103b49 0%,transparent 74%),var(--bg);color:var(--text);font:16px/1.65 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
-    a{color:inherit;text-decoration:none}a:focus-visible{outline:3px solid var(--teal);outline-offset:4px;border-radius:5px}.container{width:min(1120px,calc(100% - 40px));margin:auto}.topbar{display:flex;align-items:center;justify-content:space-between;padding:27px 0;border-bottom:1px solid var(--line)}.brand{display:flex;align-items:center;gap:12px;font-size:22px;font-weight:800;letter-spacing:-.7px}.logo{width:38px;height:38px;display:grid;place-items:center;border-radius:13px;background:linear-gradient(135deg,var(--primary),var(--teal));color:var(--bg);font-weight:900;font-size:23px}.nav{font-size:14px;color:var(--muted)}.nav a:hover,.footer a:hover{color:var(--teal)}.hero{padding:120px 0 108px;max-width:870px}.eyebrow{display:inline-flex;align-items:center;gap:9px;border:1px solid rgba(158,139,255,.35);border-radius:999px;background:rgba(158,139,255,.09);padding:7px 15px;color:#c8bdff;font-weight:650;font-size:13px;letter-spacing:.04em}.dot{width:7px;height:7px;background:var(--teal);border-radius:50%}.hero h1{font-size:clamp(45px,7.2vw,82px);font-weight:850;line-height:1.12;letter-spacing:-.065em;margin:28px 0 23px}.hero h1 span{background:linear-gradient(95deg,#b8a8ff 12%,#70e1d1 88%);background-clip:text;-webkit-background-clip:text;color:transparent}.lead{font-size:clamp(18px,2.1vw,22px);max-width:680px;color:#c1cbe4;line-height:1.75;margin:0}.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:37px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;border-radius:12px;padding:13px 21px;font-weight:750;font-size:15px;transition:transform .15s ease}.btn:hover{transform:translateY(-2px)}.btn-primary{background:#b6a7ff;color:#161130}.btn-secondary{border:1px solid var(--line);background:rgba(255,255,255,.04)}section{padding:24px 0 90px}.section-kicker{color:var(--teal);font-size:13px;letter-spacing:.12em;text-transform:uppercase;font-weight:800}.section-title{font-size:clamp(29px,4vw,41px);line-height:1.2;letter-spacing:-.04em;margin:10px 0 27px}.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.card{background:linear-gradient(150deg,rgba(255,255,255,.07),rgba(255,255,255,.025));border:1px solid var(--line);border-radius:21px;padding:28px 25px;min-height:224px}.card-icon{width:43px;height:43px;border-radius:13px;background:rgba(158,139,255,.12);display:grid;place-items:center;font-size:23px;margin-bottom:17px}.card h3{margin:0 0 8px;font-size:20px;letter-spacing:-.02em}.card p{margin:0;color:var(--muted);font-size:15px}.closing{background:rgba(255,255,255,.045);border:1px solid var(--line);border-radius:25px;padding:37px 42px;margin-bottom:70px}.closing h2{font-size:30px;line-height:1.3;letter-spacing:-.03em;margin:0 0 10px}.closing p{margin:0;color:var(--muted)}.footer{display:flex;align-items:center;justify-content:space-between;gap:15px;flex-wrap:wrap;padding:23px 0 37px;border-top:1px solid var(--line);font-size:13px;color:var(--muted)}.footer-links{display:flex;gap:20px}
-    @media(max-width:740px){.hero{padding:86px 0 75px}.cards{grid-template-columns:1fr}.card{min-height:auto}.closing{padding:26px}.nav{font-size:12px}.topbar{padding:20px 0}.hero h1{letter-spacing:-.055em}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn{transition:none}}
-  </style>
+  <meta property="og:site_name" content="LearnWard">
+  <meta name="twitter:card" content="summary">
+  <meta name="color-scheme" content="light">
+  <link rel="canonical" href="https://learnward.online/">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+  <title>LearnWard — Turn learning into an adventure</title>
 </head>
 <body>
-  <header class="container topbar">
-    <a class="brand" href="/" aria-label="LearnWard - Trang chủ"><span class="logo" aria-hidden="true">L</span>LearnWard</a>
-    <nav class="nav"><a href="#ve-learnward">Về LearnWard</a></nav>
-  </header>
-  <main>
-    <div class="container">
-      <div class="hero">
-        <div class="eyebrow"><span class="dot" aria-hidden="true"></span>Đang phát triển</div>
-        <h1>Mỗi bước tiến<br><span>đều đáng ghi nhận.</span></h1>
-        <p class="lead">LearnWard giúp gia đình nhìn thấy sự tiến bộ thực sự trong học tập, ghi nhận nỗ lực và biến những thành tựu nhỏ thành động lực lâu dài.</p>
-        <div class="actions"><a class="btn btn-primary" href="#ve-learnward">Khám phá ý tưởng <span aria-hidden="true">↗</span></a><a class="btn btn-secondary" href="https://github.com/thedusk4203/LearnWard" target="_blank" rel="noopener noreferrer">Xem dự án trên GitHub <span aria-hidden="true">↗</span></a></div>
-      </div>
-      <section id="ve-learnward" aria-labelledby="benefits-title">
-        <div class="section-kicker">Giá trị cốt lõi</div>
-        <h2 class="section-title" id="benefits-title">Học tốt hơn, theo cách tích cực hơn.</h2>
-        <div class="cards">
-          <article class="card"><div class="card-icon" aria-hidden="true">✦</div><h3>Nhìn thấy tiến bộ</h3><p>Ghi nhận quá trình cải thiện, sự cố gắng và những cột mốc học tập của trẻ.</p></article>
-          <article class="card"><div class="card-icon" aria-hidden="true">◇</div><h3>Động lực ý nghĩa</h3><p>Kết nối thành quả học tập với các phần thưởng do phụ huynh lựa chọn.</p></article>
-          <article class="card"><div class="card-icon" aria-hidden="true">◎</div><h3>Đồng hành cùng gia đình</h3><p>Đặt phụ huynh và trẻ vào cùng một hành trình phát triển, không chỉ chạy theo điểm số.</p></article>
+  <a class="skip-link" href="#main" data-i18n="skip">Skip to content</a>
+  <header class="site-header" id="top">
+    <div class="nav-wrap container">
+      <a class="brand" href="#top" aria-label="LearnWard — Home" id="brand-link">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 44 44" fill="none"><path d="M22 3.8 39 10v12c0 9.5-6.8 15.5-17 18.9C11.8 37.5 5 31.5 5 22V10L22 3.8Z" fill="#7057E7"/><path d="m22 10 3.6 7.3 8.1 1.2-5.8 5.6 1.3 8-7.2-3.8-7.2 3.8 1.3-8-5.8-5.6 8.1-1.2L22 10Z" fill="#FFDE81"/></svg>
+        </span>
+        <span>LearnWard<span class="brand-dot">.</span></span>
+      </a>
+      <nav class="main-nav" id="main-nav" aria-label="Primary navigation">
+        <a href="#how-it-works" data-i18n="nav_how">How it works</a>
+        <a href="#rewards" data-i18n="nav_rewards">Rewards</a>
+        <a href="#why-learnward" data-i18n="nav_why">Our approach</a>
+        <a href="#our-story" data-i18n="nav_story">Our story</a>
+        <a href="#faq" data-i18n="nav_faq">FAQ</a>
+      </nav>
+      <div class="nav-actions">
+        <div class="language-switch" role="group" aria-label="Select language" id="language-switch">
+          <button type="button" data-language="en" aria-pressed="true">EN</button>
+          <span class="language-divider" aria-hidden="true"></span>
+          <button type="button" data-language="vi" aria-pressed="false">VI</button>
         </div>
-      </section>
-      <aside class="closing" aria-labelledby="coming-title"><h2 id="coming-title">LearnWard đang được xây dựng.</h2><p>Ứng dụng Android và iOS đang trong quá trình phát triển. Website này là trang giới thiệu dự án, chưa hỗ trợ tạo tài khoản hay truy cập dữ liệu học tập.</p></aside>
+        <a class="nav-cta" href="#our-story" data-i18n="nav_cta">Meet LearnWard <span aria-hidden="true">↗</span></a>
+        <button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Open navigation menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
     </div>
+  </header>
+  <main id="main">
+    <section class="hero section-shell" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow"><span class="pulse-dot" aria-hidden="true"></span><span data-i18n="hero_status">A family-first idea · In development</span></span>
+          <h1 id="hero-title"><span data-i18n="hero_title_1">What if homework</span><br><span class="heading-gradient" data-i18n="hero_title_2">felt like a quest?</span></h1>
+          <p class="hero-lead" data-i18n="hero_lead">LearnWard turns the learning kids already do into visible progress: quests, XP, levels, and meaningful rewards chosen together with their parents.</p>
+          <p class="hero-support" data-i18n="hero_support">Not more screen time. A little more motivation to keep learning.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#how-it-works"><span data-i18n="hero_explore">Explore the idea</span><span aria-hidden="true">↗</span></a>
+            <a class="button button-ghost" href="#our-story"><span data-i18n="hero_story">Why we started</span><span aria-hidden="true">→</span></a>
+          </div>
+          <div class="hero-footnotes">
+            <span><span class="check-round" aria-hidden="true">✓</span><span data-i18n="hero_note_1">Built around real-life learning</span></span>
+            <span><span class="check-round" aria-hidden="true">✓</span><span data-i18n="hero_note_2">Designed with families in mind</span></span>
+          </div>
+        </div>
+        <div class="hero-art" aria-label="Illustration of an example LearnWard learning dashboard" role="img" id="hero-art">
+          <div class="orbit orbit-one" aria-hidden="true"></div><div class="orbit orbit-two" aria-hidden="true"></div>
+          <div class="sparkle sparkle-one" aria-hidden="true">✳</div><div class="sparkle sparkle-two" aria-hidden="true">✦</div>
+          <div class="floating-chip chip-xp" aria-hidden="true"><span class="chip-symbol">✦</span><span>+38 XP</span></div>
+          <div class="floating-chip chip-streak" aria-hidden="true"><span class="chip-symbol orange">★</span><span data-i18n="mock_personal_best">New personal best!</span></div>
+          <div class="mock-app">
+            <div class="mock-topline"><div class="mock-mini-logo">✦</div><div><strong>LearnWard</strong><small data-i18n="mock_dashboard">MY ADVENTURE</small></div><span class="mock-more" aria-hidden="true">•••</span></div>
+            <div class="mock-profile">
+              <div class="mock-avatar" aria-hidden="true">A</div>
+              <div class="mock-profile-detail"><span class="mock-welcome" data-i18n="mock_welcome">Welcome back, Alex!</span><strong><span data-i18n="mock_level">Level</span> 07 <span class="level-star" aria-hidden="true">✦</span></strong></div>
+              <div class="mock-medal" aria-hidden="true">🏅</div>
+            </div>
+            <div class="xp-row"><span>1,420 / 1,800 XP</span><span>78%</span></div>
+            <div class="xp-track"><span></span></div>
+            <div class="quest-heading"><strong data-i18n="mock_next">Your next quest</strong><span data-i18n="mock_quest_tag">DAILY QUEST</span></div>
+            <div class="quest-box">
+              <span class="quest-icon" aria-hidden="true">📐</span>
+              <div><strong data-i18n="mock_quest_title">Practice fractions</strong><span data-i18n="mock_quest_desc">Math · One step at a time</span></div>
+              <span class="quest-chevron" aria-hidden="true">↗</span>
+            </div>
+            <div class="mock-bottom-grid">
+              <div class="mini-stat purple"><span data-i18n="mock_growth">Skill growth</span><strong>+12%</strong><div class="micro-bars" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div></div>
+              <div class="mini-stat yellow"><span data-i18n="mock_points">Reward points</span><strong>240 <small>RP</small></strong><div class="mini-pill" data-i18n="mock_shop">Explore shop →</div></div>
+            </div>
+          </div>
+          <div class="art-note" data-i18n="art_note">Illustrative concept · Not an app screenshot</div>
+        </div>
+      </div>
+      <div class="container hero-value-strip" aria-label="Our guiding ideas" id="value-strip">
+        <div><span class="strip-icon strip-purple" aria-hidden="true">✦</span><span data-i18n="strip_1">Learn anywhere</span></div>
+        <div><span class="strip-icon strip-teal" aria-hidden="true">↗</span><span data-i18n="strip_2">See your growth</span></div>
+        <div><span class="strip-icon strip-amber" aria-hidden="true">★</span><span data-i18n="strip_3">Choose meaningful rewards</span></div>
+      </div>
+    </section>
+
+    <section class="section section-how" id="how-it-works" aria-labelledby="how-title">
+      <div class="container">
+        <div class="section-intro centered">
+          <span class="section-kicker" data-i18n="how_kicker">THE LEARNING LOOP</span>
+          <h2 id="how-title" data-i18n="how_title">A little progress. A new reason to try again.</h2>
+          <p data-i18n="how_intro">LearnWard is designed to make effort visible without asking children to change where or how they learn.</p>
+        </div>
+        <div class="steps">
+          <article class="step-card"><span class="step-index">01</span><div class="step-illustration lilac" aria-hidden="true"><span>📚</span><i>✧</i></div><h3 data-i18n="step1_title">Study anywhere</h3><p data-i18n="step1_desc">School, worksheets, tutoring, books, or a practice test. Real-world learning is where every quest begins.</p></article>
+          <article class="step-card"><span class="step-index">02</span><div class="step-illustration peach" aria-hidden="true"><span>📝</span><i>✓</i></div><h3 data-i18n="step2_title">Record the result</h3><p data-i18n="step2_desc">Capture the work and review the result, so progress reflects actual learning rather than just taps in an app.</p></article>
+          <article class="step-card"><span class="step-index">03</span><div class="step-illustration mint" aria-hidden="true"><span>📈</span><i>+XP</i></div><h3 data-i18n="step3_title">See growth take shape</h3><p data-i18n="step3_desc">Improvement, effort, and achievement become understandable milestones, XP, levels, and carefully balanced points.</p></article>
+          <article class="step-card"><span class="step-index">04</span><div class="step-illustration butter" aria-hidden="true"><span>🎁</span><i>★</i></div><h3 data-i18n="step4_title">Choose a reward</h3><p data-i18n="step4_desc">Save points toward something meaningful from a reward shop the child and parent have agreed on together.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-rewards" id="rewards" aria-labelledby="rewards-title">
+      <div class="container rewards-layout">
+        <div class="rewards-copy">
+          <span class="section-kicker" data-i18n="rewards_kicker">REWARDS WITH A PURPOSE</span>
+          <h2 id="rewards-title"><span data-i18n="rewards_title_1">The best rewards aren't</span><br><span class="purple-text" data-i18n="rewards_title_2">one-size-fits-all.</span></h2>
+          <p data-i18n="rewards_desc">One child dreams of choosing movie night. Another is saving for a weekend adventure. LearnWard envisions a shop shaped by conversations between children and parents—not by a fixed prize catalog.</p>
+          <div class="reward-benefits">
+            <div><span class="benefit-check" aria-hidden="true">✓</span><span data-i18n="rewards_benefit_1">Small, medium, and big goals keep motivation within reach.</span></div>
+            <div><span class="benefit-check" aria-hidden="true">✓</span><span data-i18n="rewards_benefit_2">Parents set boundaries; children get meaningful choices.</span></div>
+            <div><span class="benefit-check" aria-hidden="true">✓</span><span data-i18n="rewards_benefit_3">Progress and mastery matter more than collecting prizes.</span></div>
+          </div>
+          <a class="text-link" href="#why-learnward"><span data-i18n="rewards_link">The thinking behind the system</span> <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="reward-showcase" aria-label="Illustrative family reward shop concept">
+          <div class="shop-top"><div><div class="shop-overline" data-i18n="shop_small">THE FAMILY SHOP</div><h3 data-i18n="shop_title">Something to work toward</h3></div><div class="wallet"><span aria-hidden="true">✦</span> 240 <small>RP</small></div></div>
+          <div class="reward-card first"><span class="reward-emoji" aria-hidden="true">🎬</span><div class="reward-details"><strong data-i18n="shop_item1">Pick movie night</strong><span data-i18n="shop_tier1">Little wins</span></div><span class="reward-cost">50 RP</span></div>
+          <div class="reward-card second"><span class="reward-emoji" aria-hidden="true">🎮</span><div class="reward-details"><strong data-i18n="shop_item2">Extra game time</strong><span data-i18n="shop_tier2">A goal to save for</span></div><span class="reward-cost">150 RP</span></div>
+          <div class="reward-card third"><span class="reward-emoji" aria-hidden="true">🌳</span><div class="reward-details"><strong data-i18n="shop_item3">Choose a family outing</strong><span data-i18n="shop_tier3">Big adventure</span></div><span class="reward-cost">500 RP</span></div>
+          <div class="shop-caption" data-i18n="shop_caption">Example rewards and points only. Each family chooses its own.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-approach" id="why-learnward" aria-labelledby="approach-title">
+      <div class="container">
+        <div class="section-intro centered">
+          <span class="section-kicker" data-i18n="approach_kicker">MORE THAN GAMIFICATION</span>
+          <h2 id="approach-title" data-i18n="approach_title">A game-like feeling. A learning-first mindset.</h2>
+          <p data-i18n="approach_intro">The goal isn't to make kids chase points forever. It's to help them notice their own growth and eventually feel proud of learning itself.</p>
+        </div>
+        <div class="approach-grid">
+          <article class="principle-card"><span class="principle-icon purple-icon" aria-hidden="true">↗</span><h3 data-i18n="principle1_title">Celebrate improvement</h3><p data-i18n="principle1_desc">A personal best or a recovered weak spot can mean more than a perfect score. Progress is personal.</p><span class="principle-tag" data-i18n="principle1_tag">Growth over comparison</span></article>
+          <article class="principle-card"><span class="principle-icon teal-icon" aria-hidden="true">✦</span><h3 data-i18n="principle2_title">Keep earned progress</h3><p data-i18n="principle2_desc">XP represents a learning journey. A difficult day shouldn't erase the effort already made.</p><span class="principle-tag" data-i18n="principle2_tag">No punishment for setbacks</span></article>
+          <article class="principle-card"><span class="principle-icon amber-icon" aria-hidden="true">♡</span><h3 data-i18n="principle3_title">Let families shape it</h3><p data-i18n="principle3_desc">Parents set fair limits and rewards. Children help choose goals they actually care about.</p><span class="principle-tag" data-i18n="principle3_tag">Choice with boundaries</span></article>
+        </div>
+        <div class="audience-panel">
+          <div class="audience-side"><div class="audience-symbol" aria-hidden="true">⚡</div><div><h3 data-i18n="child_title">For young adventurers</h3><p data-i18n="child_desc">A clearer path from “I tried” to “I improved.” More ownership, more confidence, and goals worth working toward.</p></div></div>
+          <div class="audience-divider" aria-hidden="true"></div>
+          <div class="audience-side"><div class="audience-symbol" aria-hidden="true">♥</div><div><h3 data-i18n="parent_title">For parents and caregivers</h3><p data-i18n="parent_desc">A supportive way to recognize real effort, agree on rewards, and guide progress without turning every study session into an argument.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-story" id="our-story" aria-labelledby="story-title">
+      <div class="container story-layout">
+        <div class="story-art" aria-hidden="true">
+          <div class="story-card">
+            <div class="story-orbit"></div>
+            <div class="story-stars">✳ <span>✦</span></div>
+            <div class="story-number">2</div>
+            <div class="story-avatars"><span>✦</span><span>★</span></div>
+            <div class="story-scribble">↗</div>
+          </div>
+          <span class="story-art-label" data-i18n="story_art_label">Two little brothers. One big question.</span>
+        </div>
+        <div class="story-copy">
+          <span class="section-kicker" data-i18n="story_kicker">HOW IT BEGAN</span>
+          <h2 id="story-title" data-i18n="story_title">This started at home, not in a boardroom.</h2>
+          <p data-i18n="story_p1">I have two younger brothers. Like many families, ours knows what it's like to care deeply about their education while not always having the time or resources to sit beside them through every lesson and assignment.</p>
+          <p data-i18n="story_p2">I kept wondering: what if studying felt a little more like the games they already understand? Not because a grade should become a prize, but because the effort between one result and the next deserves to be seen.</p>
+          <p data-i18n="story_p3">That question became LearnWard—an idea for turning everyday learning into quests, making improvement visible, and letting kids and parents decide together what meaningful rewards look like.</p>
+          <div class="story-signoff"><span class="story-line" aria-hidden="true"></span><span data-i18n="story_signoff">Built from a real family problem, for families like ours.</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-faq" id="faq" aria-labelledby="faq-title">
+      <div class="container faq-layout">
+        <div class="faq-heading"><span class="section-kicker" data-i18n="faq_kicker">GOOD QUESTIONS</span><h2 id="faq-title" data-i18n="faq_title">Curious about LearnWard?</h2><p data-i18n="faq_intro">A few things we think families should know from the start.</p></div>
+        <div class="faq-list">
+          <details><summary><span data-i18n="faq_q1">Is LearnWard another learning platform?</span><span class="faq-plus" aria-hidden="true"></span></summary><p data-i18n="faq_a1">No. LearnWard is intended to sit on top of the learning children already do—in school, at home, or anywhere else—and help them recognize their progress.</p></details>
+          <details><summary><span data-i18n="faq_q2">Does it only reward high grades?</span><span class="faq-plus" aria-hidden="true"></span></summary><p data-i18n="faq_a2">No. The design puts improvement, meaningful effort, recovery, and mastery alongside achievement. A lower result should create an opportunity to learn, not erase earned progress.</p></details>
+          <details><summary><span data-i18n="faq_q3">Who decides which rewards are available?</span><span class="faq-plus" aria-hidden="true"></span></summary><p data-i18n="faq_a3">Families do. Parents define acceptable rewards, costs, and boundaries, while children can participate in setting goals and deciding what to save for. The shop examples here are illustrative.</p></details>
+          <details><summary><span data-i18n="faq_q4">Can I download LearnWard today?</span><span class="faq-plus" aria-hidden="true"></span></summary><p data-i18n="faq_a4">Not yet. LearnWard is under active development for Android and iOS. This website introduces the direction of the product; its illustrations are not screenshots of a released app.</p></details>
+          <details><summary><span data-i18n="faq_q5">Will this website collect my child's learning data?</span><span class="faq-plus" aria-hidden="true"></span></summary><p data-i18n="faq_a5">No. This introductory website has no account system, learning-data forms, or analytics scripts. It only saves your language choice locally in your browser. The future app will have separate privacy information before launch.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-cta" aria-labelledby="cta-title">
+      <div class="container">
+        <div class="closing-panel">
+          <div class="closing-decor closing-decor-one" aria-hidden="true">✦</div>
+          <div class="closing-decor closing-decor-two" aria-hidden="true">✳</div>
+          <span class="closing-eyebrow" data-i18n="cta_kicker">THE ADVENTURE IS JUST BEGINNING</span>
+          <h2 id="cta-title" data-i18n="cta_title">Every small step deserves to feel like progress.</h2>
+          <p data-i18n="cta_desc">We're building LearnWard thoughtfully, one learning milestone at a time. Explore the open development project or get in touch.</p>
+          <div class="closing-actions">
+            <a class="button button-white" href="https://github.com/thedusk4203/LearnWard" target="_blank" rel="noopener noreferrer"><span data-i18n="cta_github">Follow development on GitHub</span><span aria-hidden="true">↗</span></a>
+            <a class="button button-outline-white" href="mailto:admin@learnward.online"><span data-i18n="cta_contact">Get in touch</span><span aria-hidden="true">→</span></a>
+          </div>
+          <span class="closing-note" data-i18n="cta_note">Independent project · Android & iOS planned · Not yet available for download</span>
+        </div>
+      </div>
+    </section>
   </main>
-  <footer class="container footer"><span>© <span id="year">2026</span> LearnWard. Mỗi bước tiến đều có ý nghĩa.</span><div class="footer-links"><a href="https://github.com/thedusk4203/LearnWard" target="_blank" rel="noopener noreferrer">GitHub</a><a href="#ve-learnward">Giới thiệu</a></div></footer>
-  <script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+  <footer class="site-footer">
+    <div class="container footer-top">
+      <div><a href="#top" class="footer-brand">✦ LearnWard<span>.</span></a><p data-i18n="footer_tag">Helping every learner see how far they've come.</p></div>
+      <div class="footer-links"><a href="#how-it-works" data-i18n="footer_how">How it works</a><a href="#our-story" data-i18n="footer_story">Our story</a><a href="https://github.com/thedusk4203/LearnWard" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="mailto:admin@learnward.online">admin@learnward.online</a></div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© <span id="year">2026</span> LearnWard. <span data-i18n="footer_rights">Made with care for families.</span></span>
+      <span data-i18n="footer_disclaimer">Product concept in development. Screens and point amounts are illustrative.</span>
+    </div>
+  </footer>
 </body>
 </html>
