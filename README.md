@@ -51,6 +51,6 @@ Existing Spaceship DNS records:
 
 - English is the default; a manual VI switch saves the user's choice in localStorage.
 - The brochure website has no forms, accounts, trackers or external dependencies.
-- Contact mailto uses \`admin@learnward.online\`. Verify that this alias is configured before advertising it.
+- Contact mailto uses \`contact@learnward.online\`. Verify that this alias is configured before advertising it.
 - Replace concept-only copy and graphics with verified, launched product capabilities when appropriate.
 - Before collecting user data or releasing the mobile app, provide an actual privacy policy appropriate for the app, including child-data practices.

@@ -40,7 +40,7 @@
     faq_q4:"Hiện có thể tải LearnWard chưa?",faq_a4:"Chưa. LearnWard đang được phát triển cho Android và iOS. Website này giới thiệu định hướng sản phẩm; các hình minh họa không phải ảnh chụp từ ứng dụng đã phát hành.",
     faq_q5:"Website có thu thập dữ liệu học tập của trẻ không?",faq_a5:"Không. Website giới thiệu này không có hệ thống tài khoản, biểu mẫu thu thập dữ liệu học tập hay mã phân tích truy cập. Website chỉ lưu lựa chọn ngôn ngữ trên trình duyệt. Ứng dụng trong tương lai sẽ có thông tin quyền riêng tư riêng trước khi ra mắt.",
     cta_kicker:"HÀNH TRÌNH CHỈ VỪA BẮT ĐẦU",cta_title:"Mỗi bước nhỏ đều xứng đáng được nhìn nhận.",cta_desc:"Chúng tôi đang xây dựng LearnWard một cách cẩn trọng, từ từng cột mốc học tập. Hãy theo dõi dự án hoặc liên hệ với chúng tôi.",
-    cta_github:"Theo dõi phát triển trên GitHub",cta_contact:"Liên hệ",
+    cta_email:"Liên hệ LearnWard",cta_story:"Đọc câu chuyện của chúng tôi",
     cta_note:"Dự án độc lập · Dự kiến Android & iOS · Chưa phát hành",
     footer_tag:"Giúp mỗi đứa trẻ nhìn thấy mình đã đi xa đến đâu.",footer_how:"Cách hoạt động",footer_story:"Câu chuyện",footer_rights:"Được xây dựng bằng sự quan tâm dành cho gia đình.",footer_disclaimer:"Ý tưởng sản phẩm đang phát triển. Giao diện và mức điểm chỉ mang tính minh họa."
   };
